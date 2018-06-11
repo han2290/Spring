@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.msg_warn {
+	color: rgba(255, 0, 0, 1.0);
+	font-size: 0.8em
+}
+
+#wrapper {
+
+	position:relative;
+
+    min-height:100%;
+
+}
+html,body{
+	background-color:#364a69;
+	margin:0;
+    padding:0;
+    height:80%;
+}
+#header{
+	position:fixed;
+	width:100%;
+	height:70px;
+	top:0;
+	z-index:2;
+    background:#2e3741;
+    text-align: center;
+    color: #ffffff;
+}
+#said {
+	z-index:1;
+	margin-top:70px;
+	margin-bottom:70px; 
+}
+
+#footer{
+	 position:fixed;
+
+    bottom:0;
+
+    width:100%;
+
+    height:50px;   
+
+    background:#000000;
+}
+
+#txt_isay{
+	left:0;
+	width:80%;
+	height:100%;
+} 
+#btn_isay{
+	position:absolute;
+	right:0;
+	width:20%;
+	height:100%;
+	text-align:center;
+	font-size: 2em;
+} 
+
+.back {
+	background: #c0c0c0;
+}
+
+.icon {
+	position: relative;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	margin:5px;
+	border:2px solid #3e5f79;
+	border-radius: 50%;
+}
+
+.addbox {
+	top: -35px;
+	position: relative;
+	display: inline-block;
+	left: 75px;
+	padding: 10px;
+	background-color: #273c4e; color : #ffffff;
+	border: 2px solid #4b7596;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+.box {
+	top: -35px;
+	position: relative;
+	display: inline-block;
+	background-color: #273c4e; color : #ffffff;
+	border: 2px solid #4b7596;
+	position: relative;
+	padding: 10px;
+	width: auto;
+	margin-bottom: 2%;
+	left: 60px;
+	
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	
+}
+
+.boxR{
+	top:-28px;
+	position: absolute;
+	display: inline-block;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px;
+	right:0;
+	width: auto;
+	margin-right:1%;
+	border: 2px solid #3e5f79;	
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	
+}
+
+.size{
+	width:100%;
+	height:100%;
+}
+
+div.left {
+	position: relative;
+	width: 60%;
+	left: 0px;
+/* 	border:3px solid #8080ff; */
+}
+
+div.say {
+	width: 95%;
+	margin: 0;
+}
+
+
+div.right{
+	position: relative;
+	width: 60%;
+	right: -45%;
+
+}
